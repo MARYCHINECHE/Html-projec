@@ -1,0 +1,198 @@
+/*Reset8*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Basic styling*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #661a1a;
+    line-height: 1.6;
+    background-color: #dcdce4;
+}
+
+/*Header and Navbar*/
+header{
+    background-color: #db7a7a;
+    padding: 2.5em 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    color: #131212;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color o.3s ease;
+    padding: 50px;
+}
+
+nav ul li a:hover{
+    color: #1a0502; /* Tomato color for hover effect */
+}
+
+/* Main Section Styling */
+main{
+    padding: 2em;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Section Titles */
+section h2{
+    color: #941616;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #160c0a;
+    display: inline-block;
+}
+
+/* Home Section */
+#home{
+    text-align: center;
+    padding: 4em 0;
+}
+
+#home h1{
+    font-size: 2.5em;
+    color: #6e2020;
+}
+
+#home p{
+    font-size: 1.2em;
+    color: #943434;
+}
+
+    /* About Section */
+    #about ul {
+        list-style: disc;
+        padding-left: 1.2em;
+    }
+
+    #about h3 {
+        color: #833232;
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+
+    /* Work Section */
+    table{
+        width: 100%;
+     border_collapse: collapse:
+     margin-top: 1em;
+    }
+
+     table, th, td {
+        border: 1px solid #ddd;
+        padding: 0.8em;
+     }
+     
+     th {
+background-color: #6e1a1a;
+color: white;
+     }
+
+     td {
+        background-color: #f9f9f9;
+     }
+
+     /* Resume Section */
+     #resume a {
+        color: #ff6347;
+        font-weight: bold;
+        text-decoration: none;
+     }
+
+     #resume a:hover{
+        text-decoration: underline;
+     }
+
+     #resume video{
+        margin-top: 2em;
+        display: block;
+        max-width: 20%;
+     }
+
+     /* Contact Section */
+     #contact form{
+        max-width: 600px;
+        margin: 2em auto;
+        background: #fff;
+        padding: 2em;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+     }
+
+     #contact label{
+        font-weight: bold;
+        margin-top: 1em;
+        display: block;
+     }
+
+     #contact input, #contact textarea{
+        width: 100%;
+        padding: 0.7em;
+        margin-top: 0.5em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1em;
+     }
+
+     #contact button{
+        display: block;
+        width: 100%;
+        padding: 0.8em;
+        background-color: #333;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background-color:0.3s ease;
+     }
+
+     #contact button:hover{
+        background-color: #ff6347;
+     }
+
+     #contact ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+     }
+
+    #contact ul li {
+margin: 0.05em
+    }
+
+    #contact ul li a {
+        color: #333;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    #contact ul li a:hover {
+        color: #ff6347;
+    }
+
+    /* footer*/
+    footer {
+text-align: center;
+background-color: #333;
+color: white;
+padding: 1em;
+margin-top: 2em;
+    } 
+
+
+    
+  git config --global user.email "aginahmarychinecherem@gmail.com"
+  git config --global user.name "MARYCHINCHE"
